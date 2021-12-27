@@ -13,6 +13,7 @@ struct TouchDownApp: App {
         WindowGroup {
             ContentView()
 				.environmentObject(Shop())
+			
         }
     }
 }
